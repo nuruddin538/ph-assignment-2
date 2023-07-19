@@ -331,8 +331,6 @@ section {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 1rem;
-  align-items: center;
-  margin-bottom: 5rem;
 }
 .pro-pic img {
   margin-left: 1rem;
@@ -376,6 +374,7 @@ section {
 .footer-ul ul li a {
   text-decoration: none;
   color: #fff;
+  text-align: center;
   font-size: 1.8rem;
   font-weight: 600;
 }
@@ -389,6 +388,19 @@ section {
 .footer-icon ul li a {
   font-size: 3rem;
   color: #fff;
+}
+.fa-facebook,
+.fa-youtube,
+.fa-twitter,
+.fa-instagram {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.fa-facebook:hover,
+.fa-youtube:hover,
+.fa-twitter:hover,
+.fa-instagram:hover {
+  transform: rotate(300deg);
 }
 .footer-policy ul {
   text-align: center;
