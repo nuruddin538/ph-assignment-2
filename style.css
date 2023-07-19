@@ -7,6 +7,7 @@
 :root {
   --primary-color: #f948b2;
   --secondary-color: #0b0223;
+  --tartiary-color: #534c64;
 }
 html {
   font-size: 60.5%;
@@ -134,4 +135,218 @@ section {
   width: 80%;
   height: auto;
   float: right;
+}
+.banner-content p {
+  color: var(--tartiary-color);
+}
+/* gamer section styles */
+.gamer-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gamer-content {
+  text-align: right;
+}
+.gamer-img img {
+  width: 80%;
+  height: auto;
+}
+.gamer-content h2 {
+  text-align: right;
+  font-size: 4rem;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 2rem;
+}
+.gamer-content p {
+  color: #534c64;
+  text-align: right;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+.btn-kn {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.gamer-content .purp {
+  color: #534c64;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+.gamer-content .un-g {
+  color: #534c64;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+/* funny-v-card styles here */
+.funny-v-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.funny-video .o-g,
+.funny-video .b-d {
+  text-align: center;
+  padding: 2rem 0;
+}
+.funny-video .o-g {
+  color: #0b0223;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.funny-video .b-d {
+  color: var(--tartiary-color);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+.funny-video .f-v {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.img-overlay {
+  position: relative;
+  display: inline-block;
+  max-width: 30rem;
+}
+.img-overlay img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 1rem;
+}
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.img-overlay:hover .overlay {
+  opacity: 1;
+}
+.img-overlay:hover .play-icon {
+  opacity: 1;
+}
+.play-icon i {
+  font-size: 4.8rem;
+}
+.card-img p {
+  color: #534c64;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+/* play games styles */
+.play-games {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.play-img .big-img {
+  width: 70%;
+  height: auto;
+}
+.play-img .sm-img {
+  width: 30%;
+  height: auto;
+  float: right;
+  margin-right: 2rem;
+  margin-top: -3rem;
+}
+/* careers item styles */
+.careers-section {
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+}
+.careers-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.careers-content h2 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.careers-content p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 2.5rem;
+  margin-bottom: 2rem;
+}
+.careers-c-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.careers-c-items p {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.5rem; /* 200% */
+}
+.btn-sap {
+  background: #fff;
+  color: var(--primary-color);
+  font-size: 1.8rem;
+}
+.careers-img img {
+  width: 100%;
+  height: auto;
+}
+/* profile pic styles */
+.pro-pic {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.pro-pic img {
+  margin-left: 1rem;
+  max-width: 50%;
+  height: auto;
+}
+.pro-pic p {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  color: var(--primary-color);
+}
+.pro-img:hover {
+  border: 0.1rem solid var(--primary-color);
+  border-radius: 5rem;
 }

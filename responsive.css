@@ -1,6 +1,6 @@
 /* Desktop Responsive */
 /* Tablets Responsive */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   /* nav responsive */
   .nav-main {
     flex-direction: column;
@@ -23,6 +23,48 @@
   .banner-img img {
     float: left;
     padding-left: 10rem;
+  }
+  /* gamer section styles */
+  .gamer-items {
+    flex-direction: column;
+    padding: 0 4rem;
+    text-align: center;
+  }
+  /* funny video card */
+  .funny-v-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    text-align: center;
+    padding: 0 2rem;
+  }
+  .funny-video .o-g,
+  .funny-video .f-v {
+    font-size: 3rem;
+  }
+  .funny-video .b-d {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+  /* play games responsive */
+  .play-games {
+    flex-direction: column;
+    text-align: center;
+  }
+  /* play games styles */
+  .careers-items {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 3rem;
+  }
+  /* pro-pic responsive */
+  .pro-pic {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding: 0 3rem;
   }
 }
 /* landscape phones */
@@ -49,5 +91,54 @@
   .banner-img img {
     float: left;
     padding-left: 4rem;
+  }
+  /* gamer section styles */
+  .gamer-items {
+    flex-direction: column;
+    padding: 0 4rem;
+  }
+  .gamer-content {
+    text-align: center;
+    float: left;
+  }
+  /* funny video card */
+  .funny-v-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 0 3rem;
+  }
+  .funny-video .o-g,
+  .funny-video .f-v {
+    font-size: 2.5rem;
+  }
+  .funny-video .b-d {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+  /* play games responsive */
+  .play-games {
+    flex-direction: column;
+    text-align: center;
+  }
+  /* play games styles */
+  .careers-items {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 3rem;
+  }
+  .careers-c-items {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 3rem;
+  }
+  /* pro-pic responsive */
+  .pro-pic {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding: 0 3rem;
   }
 }
