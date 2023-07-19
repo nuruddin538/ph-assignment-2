@@ -57,6 +57,16 @@
     text-align: center;
     padding: 0 3rem;
   }
+  .play-img .big-img {
+    width: 80%;
+  }
+  .play-img .sm-img {
+    width: 50%;
+    height: auto;
+    position: static;
+    float: left;
+    margin-left: 6rem;
+  }
   /* pro-pic responsive */
   .pro-pic {
     display: grid;
@@ -96,6 +106,7 @@
   .gamer-items {
     flex-direction: column;
     padding: 0 4rem;
+    width: 100%;
   }
   .gamer-content {
     text-align: center;
@@ -120,6 +131,16 @@
   .play-games {
     flex-direction: column;
     text-align: center;
+  }
+  .play-img .big-img {
+    width: 80%;
+  }
+  .play-img .sm-img {
+    width: 50%;
+    height: auto;
+    position: static;
+    float: left;
+    margin-left: 3rem;
   }
   /* play games styles */
   .careers-items {

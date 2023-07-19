@@ -31,7 +31,7 @@ ul li {
   margin: 0 auto;
 }
 section {
-  padding: 6rem 0;
+  padding: 7rem 0;
 }
 .btn,
 .btn:link,
@@ -278,11 +278,34 @@ section {
   height: auto;
 }
 .play-img .sm-img {
-  width: 30%;
+  width: 20%;
   height: auto;
   float: right;
-  margin-right: 2rem;
-  margin-top: -3rem;
+  position: relative;
+  bottom: -36rem;
+  right: 15rem;
+}
+.play-games-section .play-content h2 {
+  color: #0b0223;
+  font-size: 3.6rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.play-content {
+  width: 50%;
+}
+.play-games-section .play-content span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.play-games-section .play-content p {
+  color: #534c64;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2rem; /* 166.667% */
+  margin-left: 0;
 }
 /* careers item styles */
 .careers-section {
@@ -393,7 +416,7 @@ section {
 .fa-youtube,
 .fa-twitter,
 .fa-instagram {
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease;
   cursor: pointer;
 }
 .fa-facebook:hover,
